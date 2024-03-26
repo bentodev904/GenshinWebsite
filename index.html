@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="font" href="fonts/zh-cn.ttf">
-  <link rel="shortcut icon" href="https://static-00.iconduck.com/assets.00/games-genshinimpact-icon-512x512-pb3mtbqm.png" type="image/x-icon">
+  <link rel="shortcut icon"
+    href="https://static-00.iconduck.com/assets.00/games-genshinimpact-icon-512x512-pb3mtbqm.png" type="image/x-icon">
   <title> Genshin Impact </title>
 </head>
+
 <body>
   <div class="back"> <!-- so pra poder centralizar as paradas -->
-    
+
     <header class="footer">
       <div class="login">
-        <img src="img/dev.png" alt="feito por">
-        <img src="img/user.png" alt="login">
+        <a href="https://github.com/bentodev904/GenshinWebsite">
+          <img src="img/dev.png" alt="feito por">
+          Devs
+        </a>
+        <a>
+          <img src="img/user.png" alt="login">
+          Work in Progress</a>
       </div>
 
       <div class="logo">
@@ -22,17 +30,25 @@
       </div>
 
       <div class="nav">
-        <img src="img/search.png" alt="search">
-        <img src="img/menu.png" alt="menu">
+        <a>
+          <img src="img/search.png" alt="search">
+          Work in Progress</a>
+        <a href="scripts/javascript.js"><img src="img/menu.png" alt="menu"></a>
+        <ul class="menu" class="click">
+          <li class="item">test1</li>
+          <li class="item">test2</li>
+          <li class="item">test3</li>
+        </ul>
       </div>
     </header>
 
     <!-- de verdade aqui eu queria botar tipo um carrosel tlgd pra ir clicando e ir mudando -->
     <div class="news">
       <h1> Ultimas Novidades </h1>
-      <br>
       <div class="newspaper">
-        <img src="img/4ponto5.webp" alt="4.5">
+        <div>
+          <img src="img/4ponto5.webp" alt="4.5">
+        </div>
         <p>
           Nova personagem 5 estrelas: <strong>Chiori</strong> <br>
           Também no Banner: <strong>Arataki Itto</strong> <br>
@@ -41,12 +57,14 @@
       </div>
 
       <div class="newspaper">
+        <div>
         <img src="img/evento.webp" alt="evento">
+        </div>
         <p>
           Novo evento: <strong>Ascensção Alquímica</strong>
         </p>
+      </div>
     </div>
-
-  </div>
 </body>
+
 </html>
